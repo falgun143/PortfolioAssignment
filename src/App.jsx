@@ -10,7 +10,7 @@ import Layout from "./components/Layout/Layout";
 function App() {
   return (
     <>
-      <Router basename="/PortfolioAssignment">
+      <Router basename="/PortfolioAssignment/">
         <Container className="top_36">
           <Grid container gap={6}>
             <Grid item xs={12} s={12} m={4} lg={3}>
@@ -20,10 +20,10 @@ function App() {
             <Grid item xs>
               <Layout>
                 <Routes>
-                <Route path="/" element={<About />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/skills" element={<Skills />} />
-                  <Route path="/portfolio" element={<Portfolio />} />
+                <Route path={"/"} element={<About />} />
+                  <Route path={"/about"} element={<About />} />
+                  <Route path={"/skills"} element={<Skills />} />
+                  <Route path={"/portfolio"} element={<Portfolio />} />
                 
                 </Routes>
               </Layout>
