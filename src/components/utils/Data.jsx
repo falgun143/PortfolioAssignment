@@ -28,7 +28,7 @@ const Data = {
       icon: <GitHubIcon />,
     },
   },
-  about:" I'm a Final year IT student studying at IIIT Vadodara. I enjoy solving bugs and do open source Contributions(Check Out Protfolio for Prior Contributions).\n \n I am passionate to work on realworld projects and solve issues and bugs by open source contributions.Leveraging my expertise in the MERN stack, I am dedicated to findinginnovative solutions that enhance usability and ensure technology isaccessible to everyone.",
+  about:" I'm a Final year IT student studying at IIIT Vadodara. I enjoy solving bugs and do open source Contributions(Check Out Protfolio for Prior Contributions.) \n \n I am passionate to work on realworld projects and solve issues and bugs by open source contributions.Leveraging my expertise in the MERN stack, I am dedicated to findinginnovative solutions that enhance usability and ensure technology isaccessible to everyone.",
   experience:[
     {
       title:"Contributions to Music Blocks(GSOC Organisation)",
