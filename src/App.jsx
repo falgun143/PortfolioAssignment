@@ -8,8 +8,8 @@ import { Container, Grid } from "@mui/material";
 function App() {
   return (
     <>
-      <Container>
-        <Grid container >
+      <Container className="top_36" >
+        <Grid container  gap={6} >
           <Grid item xs={12} s={12} m={4} lg={3} >
             <Profile></Profile>
           </Grid>
