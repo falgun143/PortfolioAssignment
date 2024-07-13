@@ -12,23 +12,18 @@ const Data = {
   phone: "9391136520",
   college:"IIIT V",
   socials: {
-    facebook: {
-      link: "https://www.facebook.com",
-      text: "SamIsCoding",
-      icon: <FacebookIcon />,
-    },
     twitter: {
-      link: "https://www.facebook.com",
+      link: "https://x.com/PalFalgun",
       text: "MyTwitter",
       icon: <TwitterIcon />,
     },
     linkedIn: {
-      link: "https://www.facebook.com",
+      link: "https://www.linkedin.com/in/falgun-pal/",
       text: "MyLinkedin",
       icon: <LinkedInIcon />,
     },
     GitHub: {
-      link: "https://www.facebook.com",
+      link: "https://github.com/falgun143",
       text: "MyGithub",
       icon: <GitHubIcon />,
     },

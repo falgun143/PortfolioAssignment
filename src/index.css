@@ -3,5 +3,6 @@
 }
 
 body{
-  background-image:url("../public/bg.png")
+  background-image:url("../public/bg.png");
+  overflow-x:hidden
 }
