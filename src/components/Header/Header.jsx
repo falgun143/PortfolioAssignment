@@ -28,7 +28,7 @@ const Header = (props) => {
   return (
     <Navbar expand="lg" sticky="top" className="header">
       {/* Home link */}
-      <Nav.Link as={NavLink} to="/">
+      <Nav.Link as={NavLink} to="/PortfolioAssignment">
         <Navbar.Brand className="header_home">
           <HomeRounded />
         </Navbar.Brand>
@@ -39,7 +39,7 @@ const Header = (props) => {
           {/* About Link */}
           <Nav.Link
             as={NavLink}
-            to="/"
+            to="/PortfolioAssignment"
             className={pathname === "/" ? "header_link_active" : "header_link"}
           >
             ABOUT
