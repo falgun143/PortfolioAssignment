@@ -3,7 +3,7 @@ import "./App.css";
 import Profile from "../src/components/Profile/Profile";
 import About from "../src/components/About/About";
 import Skills from "../src/components/Skills/Skills";
-import {Portfolio} from "./components/Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 import { Container, Grid } from "@mui/material";
 import Layout from "./components/Layout/Layout";
 
