@@ -21,7 +21,7 @@ import Data from "../utils/Data";
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} timeout={{ enter: 500, exit: 500 }} />;
 });
-export const Portfolio = () => {
+const Portfolio = () => {
   const [tabValue, setTabValue] = useState("All");
   const [projectDialog, setProjectDialog] = useState(false);
 
@@ -129,3 +129,4 @@ export const Portfolio = () => {
     </Grid>
   );
 };
+export default Portfolio;
