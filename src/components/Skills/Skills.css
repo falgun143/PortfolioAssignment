@@ -1,0 +1,10 @@
+.aboutme_text {
+    line-height: 22px;
+    white-space: pre-line;
+  }
+  
+  .about_img img {
+      margin-top: 50px;
+      width: 100%;
+      border-radius: 8px;
+    }

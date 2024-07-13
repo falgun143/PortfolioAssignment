@@ -6,6 +6,8 @@ import Skills from "../src/components/Skills/Skills";
 import Portfolio from "../src/components/Portfolio/portfolio";
 import { Container, Grid } from "@mui/material";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
@@ -18,12 +20,13 @@ function App() {
             </Grid>
 
             <Grid item xs>
-              <Header></Header>
-              <Routes>
-                <Route path="/" element={<About />} />
-                <Route path="/skills" element={<Skills />} />
-                <Route path="/portfolio" element={<Portfolio />} />
-              </Routes>
+              <Layout>
+                <Routes>
+                  <Route path="/" element={<About />} />
+                  <Route path="/skills" element={<Skills />} />
+                  <Route path="/portfolio" element={<Portfolio />} />
+                </Routes>
+              </Layout>
             </Grid>
           </Grid>
         </Container>

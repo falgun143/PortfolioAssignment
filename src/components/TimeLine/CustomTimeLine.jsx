@@ -18,7 +18,7 @@ export const CustomTimeline = ({ title, icon, children }) => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography variant="h1" className={"timeline_header"}>
+          <Typography variant="h6" className={"timeline_header"}>
            {title}
           </Typography>
         </TimelineContent>
