@@ -1,19 +1,26 @@
-.profile {
-    width: 100%;
-    display: inline-block;
-    border-radius: 6px;
-
+.profile_container {
+  width: 100%;
+  display: inline-block;
+  border-radius: 6px;
 }
 
-
 .profile_image {
-    margin-top: -10px;
-    height: 10%;
-    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  margin-top: -10px;
+  height: 10%;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
 }
 
 .profile_image img {
-    width: 100%;
-   
+  width: 100%;
+}
+
+.profile_info {
+  margin: -45px 12px 28px;
+}
+
+.timeline_text{
+    font-size:18px;
+    color: #787878;
+
 }

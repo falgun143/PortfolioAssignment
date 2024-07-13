@@ -12,28 +12,29 @@
 .timeline .MuiTimelineItem-missingOppositeContent:before {
   display: none;
 }
-.timeline .timeline_dot_header {
-    color: black;
-    background-color: var(--main-color) ;
-    font-size: small ;
-    padding: 10px ;
-  }
-  
-  .timeline .timeline_dot {
-    color: black ;
-    border-color: var(--main-color) ;
-    padding: 2px ;
-  }
-  
-  .timeline .MuiTimelineConnector-root {
-    background-color: #eee ;
-  }
 
-  .timeline .timeline_dot_header > .MuiTimelineConnector{
+.timeline .timeline_dot_header {
+  color: black;
+  background-color: var(--main-color);
+  font-size: small;
+  padding: 10px;
+}
+
+.timeline .timeline_dot {
+  color: black;
+  border-color: var(--main-color);
+  padding: 2px;
+}
+
+.timeline .MuiTimelineConnector-root {
+  background-color: #eee;
+}
+
+.timeline .timeline_dot_header > .MuiTimelineConnector {
   font-size: 20px;
-  color: gray ;
- }
-  
- .timeline .spearator_padding{
-    padding-left: 18px !important;
- }
+  color: gray;
+}
+
+.timeline .spearator_padding {
+  padding-left: 18px !important;
+}

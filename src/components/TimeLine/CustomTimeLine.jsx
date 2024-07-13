@@ -9,18 +9,17 @@ import WorkIcon from "@mui/icons-material/Work";
 import "./TimeLine.css";
 import { Typography } from "@mui/material";
 
-const CustomTimeline = ({ title, icon, children }) => {
+export const CustomTimeline = ({ title, icon, children }) => {
   return (
     <Timeline className={"timeline"}>
-      {/* Item Header */}
       <TimelineItem className={"timeline_firstItem"}>
         <TimelineSeparator>
           <TimelineDot className={"timeline_dot_header"}>{icon}</TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography variant="h6" className={"timeline_header"}>
-            {title}
+          <Typography variant="h1" className={"timeline_header"}>
+           {title}
           </Typography>
         </TimelineContent>
       </TimelineItem>
@@ -32,8 +31,8 @@ const CustomTimeline = ({ title, icon, children }) => {
 
 export const CustomTimelineSeparator = () => (
   <TimelineSeparator className="spearator_padding">
-    <TimelineDot className="timeline_dot" />
+    <TimelineDot variant="outline"  className="timeline_dot" />
     <TimelineConnector />
   </TimelineSeparator>
 );
-export default CustomTimeline;
+
