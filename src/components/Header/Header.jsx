@@ -28,7 +28,7 @@ const Header = (props) => {
   return (
     <Navbar expand="lg" sticky="top" className="header">
       {/* Home link */}
-      <Nav.Link as={NavLink} to="/PortfolioAssignment">
+      <Nav.Link as={NavLink} to="/PortfolioAssignment/About">
         <Navbar.Brand className="header_home">
           <HomeRounded />
         </Navbar.Brand>
@@ -39,25 +39,25 @@ const Header = (props) => {
           {/* About Link */}
           <Nav.Link
             as={NavLink}
-            to="/PortfolioAssignment"
-            className={pathname === "/PortfolioAssignment" ? "header_link_active" : "header_link"}
+            to="/PortfolioAssignment/About"
+            className={pathname === "/PortfolioAssignment/About" ? "header_link_active" : "header_link"}
           >
             ABOUT
           </Nav.Link>
           {/* Skills */}
           <Nav.Link
             as={NavLink}
-            to="/skills"
-            className={pathname === "/skills" ? "header_link_active" : "header_link"}
+            to="/PortfolioAssignment/skills"
+            className={pathname === "/PortfolioAssignment/skills" ? "header_link_active" : "header_link"}
           >
             SKILLS
           </Nav.Link>
            {/* PortFolio*/}
           <Nav.Link
             as={NavLink}
-            to="/portfolio"
+            to="/PortfolioAssignment/portfolio"
             className={
-              pathname === "/portfolio" ? "header_link_active" : "header_link"
+              pathname === "/PortfolioAssignment/portfolio" ? "header_link_active" : "header_link"
             }
           >
             PORTFOLIO
