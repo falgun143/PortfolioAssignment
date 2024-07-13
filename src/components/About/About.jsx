@@ -28,7 +28,7 @@ const About = () => {
       <Grid className="section">
       <Grid item className="section_title mb_30">
         <span></span>
-        <h6 className="section_title_text">PriorExperience</h6>
+        <h6 className="section_title_text">Prior Experience</h6>
       </Grid>
       
       <Grid item xs={12}>
