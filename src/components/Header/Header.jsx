@@ -10,25 +10,17 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   HomeRounded,
-  SchoolRounded,
-  WorkRounded,
-  Facebook,
-  Twitter,
-  LinkedIn,
-  GitHub,
-  Telegram,
 } from "@mui/icons-material";
-import { Link, NavLink,useLocation } from "react-router-dom";
+import {NavLink,useLocation } from "react-router-dom";
 import "./Header.css"
 import Data from "../utils/Data"
-import {CustomButton} from "../Button/Button"
 const Header = (props) => {
   const location = useLocation();
   const pathname = location.pathname;
   return (
     <Navbar expand="lg" sticky="top" className="header">
       {/* Home link */}
-      <Nav.Link as={NavLink} to="/PortfolioAssignment/">
+      <Nav.Link as={NavLink} to="/about">
         <Navbar.Brand className="header_home">
           <HomeRounded />
         </Navbar.Brand>
@@ -39,25 +31,25 @@ const Header = (props) => {
           {/* About Link */}
           <Nav.Link
             as={NavLink}
-            to="/PortfolioAssignment/"
-            className={pathname === "/PortfolioAssignment/" ? "header_link_active" : "header_link"}
+            to="/about"
+            className={pathname === "/about" ? "header_link_active" : "header_link"}
           >
             ABOUT
           </Nav.Link>
           {/* Skills */}
           <Nav.Link
             as={NavLink}
-            to="/PortfolioAssignment/skills"
-            className={pathname === "/PortfolioAssignment/skills" ? "header_link_active" : "header_link"}
+            to="/skills"
+            className={pathname === "/skills" ? "header_link_active" : "header_link"}
           >
             SKILLS
           </Nav.Link>
            {/* PortFolio*/}
           <Nav.Link
             as={NavLink}
-            to="/PortfolioAssignment/portfolio"
+            to="/portfolio"
             className={
-              pathname === "/PortfolioAssignment/portfolio" ? "header_link_active" : "header_link"
+              pathname === "/portfolio" ? "header_link_active" : "header_link"
             }
           >
             PORTFOLIO
