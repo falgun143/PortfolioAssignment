@@ -28,7 +28,7 @@ const Data = {
       icon: <GitHubIcon />,
     },
   },
-  about:" I'm a Final year IT student studying at IIIT Vadodara. I enjoy solvingbugs and do open source Contributions(Check Out Protfolio for Prior Contributions).\n \n I am passionate to work on realworld projects and solve issues and bugs by open source contributions.Leveraging my expertise in the MERN stack, I am dedicated to findinginnovative solutions that enhance usability and ensure technology isaccessible to everyone.",
+  about:" I'm a Final year IT student studying at IIIT Vadodara. I enjoy solving bugs and do open source Contributions(Check Out Protfolio for Prior Contributions).\n \n I am passionate to work on realworld projects and solve issues and bugs by open source contributions.Leveraging my expertise in the MERN stack, I am dedicated to findinginnovative solutions that enhance usability and ensure technology isaccessible to everyone.",
   experience:[
     {
       title:"Contributions to Music Blocks(GSOC Organisation)",
@@ -75,7 +75,7 @@ programmingLanguage: ["Java", "JavaScript", "Python"],
       tag:"MERN",
       image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwU-Mg4iM8Fh2rkJJCAaui7WFyBBJFn3hR5TLNUWiBfj4FLHiYyEZURNLUJQlMWZj1u8&usqp=CAU",
       title:"React Projects",
-      description:"Multiple React projects which includes two dice player ,Food selling app and more.",
+      description:"Multiple React projects which includes two dice player ,Food selling app and more",
       link:"https://github.com/falgun143/ReactProjects"
     },
     {
@@ -96,7 +96,7 @@ programmingLanguage: ["Java", "JavaScript", "Python"],
       tag:"Open Source",
       image:"https://avatars.githubusercontent.com/u/3996398?s=200&v=4",
       title:"Accepted Pull Requests",
-      description:"Music Blocks Contributions",
+      description:"Worked on many bugs and enhancments involved in MusicBlocks.Optimised the Existing Code by removing unnecessary Code",
       link:"https://github.com/sugarlabs/musicblocks/commits/master/?author=falgun143"
     },
     

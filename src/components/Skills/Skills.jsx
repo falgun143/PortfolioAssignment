@@ -39,7 +39,7 @@ const About = () => {
           </Grid>
         
           <Grid item sm={12} md={6}>
-          <CustomTimeline title="FrameWorkAndLibraries-I" icon={<WorkIcon />}>
+          <CustomTimeline title="FrameWork&Libraries-I" icon={<WorkIcon />}>
               {Data.frameworksAndLibraries1.map((framework) => (
                 <TimelineItem>
                   <CustomTimelineSeparator />
@@ -57,7 +57,7 @@ const About = () => {
       <Grid item xs={12}>
         <Grid container>
           <Grid item sm={12} md={6}>
-            <CustomTimeline title="FrameWorkAndLibraries-II" icon={<WorkIcon />}>
+            <CustomTimeline title="FrameWork&Libraries-II" icon={<WorkIcon />}>
               {Data.frameworksAndLibraries2.map((framework) => (
                 <TimelineItem>
                   <CustomTimelineSeparator />
@@ -71,7 +71,7 @@ const About = () => {
             </CustomTimeline>
           </Grid>
           <Grid item sm={12} md={6}>
-            <CustomTimeline title="VersionControl" icon={<WorkIcon />}>
+            <CustomTimeline title="VersionControl&OtherTools " icon={<WorkIcon />}>
               {Data.versionControlAndOtherTools.map((versioncontrol) => (
                 <TimelineItem>
                   <CustomTimelineSeparator />

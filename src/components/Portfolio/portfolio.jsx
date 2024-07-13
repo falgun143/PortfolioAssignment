@@ -115,15 +115,15 @@ const Portfolio = () => {
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}
         </DialogTitle>
-        <img src={projectDialog.image} alt={projectDialog.title} className="projectDialog_image" />
-        <DialogContent sx={{minWidth:"500px"}}>
+        <img   style={{height:"50%",width:"100%",overflow:"hidden"}} src={projectDialog.image} alt={projectDialog.title} className="projectDialog_image" />
+        <DialogContent sx={{overflow:"hidden"}}>
           <Typography className="projectDialog_description">
             {projectDialog.description}
           </Typography>
         </DialogContent>
 
         <DialogActions className="projectDialog_actions">
-          {<a href={projectDialog.link}><Typography>LINK</Typography></a>}
+          {<a href={projectDialog.link}><Typography variant="h5">LINK</Typography></a>}
         </DialogActions>
       </Dialog>
     </Grid>
