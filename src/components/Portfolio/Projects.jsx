@@ -15,7 +15,7 @@ import {
   Slide
 } from "@mui/material";
 import React, { useState } from "react";
-import "./Portfolio.css";
+import "./PortFolio.css";
 import Data from "../utils/Data";
 
 const Transition = React.forwardRef(function Transition(props, ref) {

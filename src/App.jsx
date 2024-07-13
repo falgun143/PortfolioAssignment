@@ -20,7 +20,7 @@ function App() {
             <Grid item xs>
               <Layout>
                 <Routes>
-                  <Route path="/PortfolioAssignment/About" element={<About />} />
+                  <Route path="/PortfolioAssignment/" element={<About />} />
                   <Route path="/PortfolioAssignment/skills" element={<Skills />} />
                   <Route path="/PortfolioAssignment/Portfolio" element={<Portfolio />} />
                 
