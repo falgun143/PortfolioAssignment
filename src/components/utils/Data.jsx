@@ -38,7 +38,7 @@ const Data = {
     {
       title:"Hacktober 23",
       date:"October 2023",
-      description:"Sucessfully completed hactober 2023 by making 5 pr's"
+      description:"Sucessfully completed hacktober 2023 by making 5 pr's"
     },
   ],
   education:[
